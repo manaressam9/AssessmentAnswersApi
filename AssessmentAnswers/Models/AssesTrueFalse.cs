@@ -11,8 +11,8 @@ namespace AssessmentAnswers.Models
         public bool IsTrue { get; set; }
 
         public int AssesId { get; set; }
-        public Assessment Assessment { get; set; } = null!;
-        public AssesAnswer AssesAnswer { get; set; } = null!;
+        //public Assessment Assessment { get; set; } = null!;
+        //public AssesAnswer AssesAnswer { get; set; } = null!;
       
     }
 }

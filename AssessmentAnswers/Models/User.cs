@@ -9,8 +9,8 @@ namespace AssessmentAnswers.Models
         [Required]
         public string Name { get; set; }
 
-        public Assessment? Assessment { get; set; }
-        public ICollection<AssesAnswer> AssesAnswers { get; set; }
+        public Assessment Assessment { get; set; }
+        //public ICollection<AssesAnswer> AssesAnswers { get; set; }
 
     }
 }
